@@ -13,6 +13,7 @@ export default defineConfig({
 			autoImport: true
 		})
 	],
+	base: "/tz7/",
 	define: {
 		__VUE_OPTIONS_API__: true, // Включает Vue Options API
 		__VUE_PROD_DEVTOOLS__: false, // Отключает Vue DevTools в продакшене
